@@ -165,11 +165,12 @@ body {
   margin: 0 auto;
   padding: 0 3.2rem;
 }
-/* 
 
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
-} */
+}
+/* 
+
 /* .section-how div:nth-child(1) {
   background-color: blue;
 }
