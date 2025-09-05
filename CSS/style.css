@@ -160,12 +160,13 @@ body {
   display: grid;
   gap: 9.6rem;
 }
-/* 
 .container {
   max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
 }
+/* 
+
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 } */
