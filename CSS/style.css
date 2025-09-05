@@ -18,7 +18,7 @@ body {
   justify-content: space-between;
   background-color: #fdf2e9;
   height: 9.6rem;
-  padding: 0 4.8rem;
+  padding: 1rem 4.8rem;
 }
 .logo {
   height: 2.2rem;
@@ -67,7 +67,7 @@ body {
   padding: 0 3.2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  /* align-items: center; */
 }
 .hero-img {
   width: 100%;
@@ -145,3 +145,37 @@ body {
   font-weight: bold;
   color: #cf711f;
 }
+/* ******************* */
+/*how it's work section */
+
+.section-how {
+  padding: 9.6rem 0;
+}
+/* .section-how div {
+  padding: 100px;
+  font-size: 50px;
+}
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+} */
+/* .section-how div:nth-child(1) {
+  background-color: blue;
+}
+.section-how div:nth-child(2) {
+  background-color: rgb(208, 135, 25);
+}
+.section-how div:nth-child(3) {
+  background-color: rgb(83, 9, 9);
+}
+.section-how div:nth-child(4) {
+  background-color: rgb(18, 219, 95);
+} */
