@@ -169,7 +169,7 @@ body {
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
-
+/* 
 .section-how div:nth-child(1) {
   background-color: blue;
 }
@@ -183,4 +183,4 @@ body {
 }
 .section-how div:nth-child(4) {
   background-color: rgb(18, 219, 95);
-}
+} */
