@@ -197,7 +197,6 @@ body {
   padding-bottom: 60%;
   position: absolute;
 }
-/*
 
 .step-img-box::after {
   width: 50%;
@@ -209,6 +208,8 @@ body {
 .step-img {
   width: 33%;
 }
+/*
+
 .subheading {
   display: block;
   font-size: 2rem;
