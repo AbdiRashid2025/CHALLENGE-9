@@ -180,7 +180,7 @@ body {
   justify-content: center;
   position: relative;
 }
-/* .step-img-box::before,
+ .step-img-box::before,
 .step-img-box::after {
   content: "";
   display: block;
@@ -191,6 +191,7 @@ body {
   border-radius: 50%;
   z-index: -1;
 }
+/*
 .step-img-box::before {
   width: 60%;
   background-color: #fdf2e9;
