@@ -180,7 +180,7 @@ body {
   justify-content: center;
   position: relative;
 }
- .step-img-box::before,
+.step-img-box::before,
 .step-img-box::after {
   content: "";
   display: block;
@@ -208,7 +208,6 @@ body {
 .step-img {
   width: 33%;
 }
-/*
 
 .subheading {
   display: block;
@@ -228,6 +227,8 @@ body {
   font-size: 4.4rem;
   margin-bottom: 9.6rem;
 }
+/*
+
 .step-number {
   font-size: 8.6rem;
   font-weight: 700;
