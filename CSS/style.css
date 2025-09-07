@@ -191,13 +191,14 @@ body {
   border-radius: 50%;
   z-index: -1;
 }
-/*
 .step-img-box::before {
   width: 60%;
   background-color: #fdf2e9;
   padding-bottom: 60%;
   position: absolute;
 }
+/*
+
 .step-img-box::after {
   width: 50%;
   padding-bottom: 45%;
