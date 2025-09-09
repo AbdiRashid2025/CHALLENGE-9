@@ -437,7 +437,7 @@ strong {
   font-size: 1.6rem;
   color: #777;
 }
-/* 
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -455,4 +455,4 @@ strong {
 }
 .gallery-item img:hover {
   transform: scale(1.1);
-} */
+}
