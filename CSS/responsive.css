@@ -1,0 +1,261 @@
+/* ====== MEDIA QUERIES ====== */
+
+/* Tablets (iPad, etc.) */
+@media (max-width: 1024px) {
+}
+
+/* Mobile phones */
+@media (max-width: 768px) {
+  .heading-primary {
+    font-size: 1.8rem;
+  }
+  .hero-description {
+    font-size: 1.4rem;
+  }
+  .section-hero {
+    padding: 2.6rem 4.6rem 4.2rem;
+  }
+  .nav-icon {
+    display: block;
+    margin-left: 2.4rem;
+  }
+  .main-nav-list {
+    display: none;
+  }
+  .hero-image-box {
+    display: none;
+  }
+  .hero-img {
+    display: none;
+  }
+  .step-img {
+    width: 50%;
+  }
+  .heading-secondary {
+    font-size: 1.8rem;
+  }
+  .step-description {
+    font-size: 1.6rem;
+    display: block;
+  }
+  .heading-tertiary {
+    font-size: 2.2rem;
+  }
+  .step-img-box::before,
+  .step-img-box::after {
+    content: "";
+    display: block;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .step-img-box::before {
+    /* width: 1000%; */
+    width: 80%;
+    background-color: #fdf2e9;
+    padding-bottom: 60%;
+    position: absolute;
+  }
+
+  .step-img-box::after {
+    width: 66%;
+    padding-bottom: 45%;
+    background-color: #fae5d3;
+    z-index: -1;
+    position: absolute;
+  }
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-text {
+    font-size: 1.4rem;
+    line-height: 1.6;
+  }
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+  .testimonial-container {
+    padding: 4.8rem;
+  }
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+  .plan-text {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: #6f6f6f;
+  }
+  .list-item span {
+    font-size: 1.4rem;
+  }
+  .princing-plan--complete::after {
+    content: "Best Value";
+    position: absolute;
+    top: 5%;
+    right: -26%;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    background-color: #ffd43b;
+    color: #333;
+    padding: 0.8rem 8rem;
+    border-radius: 8px;
+    transform: rotate(45deg);
+  }
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-pricing {
+    padding: 4.6rem;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-text {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .grid--footer {
+    grid-template-columns: 1fr;
+  }
+  .logos {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  .delivered-text {
+    font-size: 1.4rem;
+  }
+}
+/* Small phones */
+@media (max-width: 480px) {
+  .heading-primary {
+    font-size: 1.8rem;
+  }
+  .hero-description {
+    font-size: 1.4rem;
+  }
+  .section-hero {
+    padding: 2.6rem 4.6rem 4.2rem;
+  }
+  .nav-icon {
+    display: block;
+    margin-left: 2.4rem;
+  }
+  .main-nav-list {
+    display: none;
+  }
+  .hero-image-box {
+    display: none;
+  }
+  .hero-img {
+    display: none;
+  }
+  .step-img {
+    width: 50%;
+  }
+  .heading-secondary {
+    font-size: 1.8rem;
+  }
+  .step-description {
+    font-size: 1.6rem;
+    display: block;
+  }
+  .heading-tertiary {
+    font-size: 2.2rem;
+  }
+  .step-img-box::before,
+  .step-img-box::after {
+    content: "";
+    display: block;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .step-img-box::before {
+    /* width: 1000%; */
+    width: 80%;
+    background-color: #fdf2e9;
+    padding-bottom: 60%;
+    position: absolute;
+  }
+
+  .step-img-box::after {
+    width: 66%;
+    padding-bottom: 45%;
+    background-color: #fae5d3;
+    z-index: -1;
+    position: absolute;
+  }
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-text {
+    font-size: 1.4rem;
+    line-height: 1.6;
+  }
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+  .testimonial-container {
+    padding: 4.8rem;
+  }
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+  .plan-text {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: #6f6f6f;
+  }
+  .list-item span {
+    font-size: 1.4rem;
+  }
+  .princing-plan--complete::after {
+    content: "Best Value";
+    position: absolute;
+    top: 5%;
+    right: -26%;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    background-color: #ffd43b;
+    color: #333;
+    padding: 0.8rem 8rem;
+    border-radius: 8px;
+    transform: rotate(45deg);
+  }
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-pricing {
+    padding: 4.6rem;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-text {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .grid--footer {
+    grid-template-columns: 1fr;
+  }
+  .logos {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+}

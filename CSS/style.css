@@ -20,8 +20,6 @@ body {
   opacity: 0.8;
   height: 9.6rem;
   padding: 1rem 4.8rem;
-  /* position: sticky;
-  top: 0; */
 }
 .logo {
   height: 2.2rem;
@@ -44,6 +42,20 @@ body {
 .main-nav-link:hover,
 .main-nav-link:active {
   color: #cf711f;
+}
+.nav-icon {
+  display: none;
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #555;
+  background-color: #aaa;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+.nav-icon:hover {
+  color: #aaa;
+  background-color: #555;
+  transform: scale(1.3);
 }
 .nav-cta:link,
 .nav-cta:visited {
@@ -145,7 +157,7 @@ body {
 .delivered-text {
   font-size: 1.8rem;
   font-weight: 700;
-  margin-left: 1.9rem;
+  margin-left: 2rem;
 }
 .delivered-text span {
   font-weight: bold;
@@ -546,10 +558,6 @@ strong {
   text-align: center;
   margin-top: 4.8rem;
 }
-
-.container {
-}
-
 .grid--4-cols {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -673,7 +681,7 @@ strong {
 
 .footer {
   padding: 12.8rem 0;
-  border-top: 1px solid #ddd;
+  border-top: 2px solid #ddd;
 }
 .footer-logo {
   display: block;
